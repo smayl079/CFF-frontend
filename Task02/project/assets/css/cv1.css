@@ -1,0 +1,47 @@
+body {
+    background: #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.cv-container {
+    background: #fff;
+    width: 800px;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #000;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1 span {
+    font-weight: 300;
+}
+
+.top-info {
+    text-align: right;
+    font-size: 14px;
+}
+
+.quote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 48%;
+}
+
+.bottom .col {
+    width: 30%;
+}
+
+h2 {
+    color: #0074d9;
+}
