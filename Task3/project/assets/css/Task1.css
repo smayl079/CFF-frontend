@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: linear-gradient(#25003e, #ff027e);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #3ed0ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.login-box button {
+    width: 95%;
+    padding: 10px;
+    background: #3ed0ec;
+    border: none;
+    cursor: pointer;
+}
