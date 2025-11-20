@@ -1,0 +1,30 @@
+body {
+    font-family: serif;
+    background-color: #f4f4f4;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.script {
+    font-size: 60px;
+    font-family: "Brush Script MT", cursive;
+    margin-bottom: 20px;
+}
+
+.big-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.small {
+    font-style: italic;
+}
