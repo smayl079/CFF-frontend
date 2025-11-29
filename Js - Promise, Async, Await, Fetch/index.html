@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Comments Table - Fetch Example</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background:#f7f7f7; }
+    h1 { margin-bottom: 10px; }
+    #controls { margin-bottom: 12px; }
+    button { padding: 8px 12px; font-size: 14px; cursor: pointer; }
+    table { width: 100%; border-collapse: collapse; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.08); }
+    th, td { padding: 8px 10px; border: 1px solid #e0e0e0; text-align: left; vertical-align: top; }
+    th { background: #fafafa; position: sticky; top: 0; }
+    #status { margin-left: 10px; font-style: italic; color: #666; }
+    pre { white-space: pre-wrap; word-break: break-word; margin:0; }
+    #table-wrapper { max-height: 60vh; overflow:auto; border: 1px solid #e8e8e8; }
+  </style>
+</head>
+<body>
+  <h1>Fetch → Comments → Table</h1>
+
+  <div id="controls">
+    <button id="loadBtn">Dataları yüklə</button>
+    <span id="status">Hazır</span>
+  </div>
+
+  <div id="table-wrapper">
+    <table id="commentsTable" aria-live="polite">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Post ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Body</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Məlumatlar bura gələcək -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="scrint.js"></script>
+</body>
+</html>
